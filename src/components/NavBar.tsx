@@ -9,6 +9,8 @@ import {
   AiFillFacebook,
 } from 'react-icons/ai'
 
+import logo from '../assets/img/logoVA.png'
+
 export function NavBar() {
   const [activeLink, setActiveLink] = useState('home')
   const [scrolled, setScrolled] = useState(false)
@@ -41,7 +43,7 @@ export function NavBar() {
     <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src="" alt="Logo" />
+          <img src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -53,7 +55,7 @@ export function NavBar() {
               className={
                 activeLink === 'home' ? 'active navbar-link' : 'navbar-link'
               }
-              onClick={handleUpdateActiveLink('home')}
+              onClick={() => handleUpdateActiveLink('home')}
             >
               Home
             </Nav.Link>
@@ -62,7 +64,7 @@ export function NavBar() {
               className={
                 activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'
               }
-              onClick={handleUpdateActiveLink('skills')}
+              onClick={() => handleUpdateActiveLink('skills')}
             >
               Skills
             </Nav.Link>
@@ -71,7 +73,7 @@ export function NavBar() {
               className={
                 activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'
               }
-              onClick={handleUpdateActiveLink('projects')}
+              onClick={() => handleUpdateActiveLink('projects')}
             >
               Projects
             </Nav.Link>
