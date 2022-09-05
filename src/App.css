@@ -576,6 +576,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width:768px){
+  .new-email-bx{
+    flex-direction: column;
+  }
+}
+
 .new-email-bx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -615,7 +622,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 18px;
 }
 .footer img {
-  width: 26%;
+  width: 12%;
+}
+
+.footer a > svg {
+  color: #fff;
 }
 .footer p {
   font-weight: 400;
