@@ -6,11 +6,16 @@ import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 import headerImg from '../assets/img/header-img.svg'
 
+import TrackVisibility from 'react-on-screen'
+
 export function Banner() {
   const [loopNum, setLoopNum] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
   const [text, setText] = useState('')
   const [delta, setDelta] = useState(400 - Math.random() * 100)
+  // eslint-disable-next-line no-unused-vars
+  const [index, setIndex] = useState(1)
+
   const period = 1000
 
   useEffect(() => {
@@ -40,6 +45,8 @@ export function Banner() {
         setIsDeleting(false)
         setLoopNum(loopNum + 1)
         setDelta(500)
+      } else {
+        setIndex((prevIndex) => prevIndex + 1)
       }
     }
     const ticker = setInterval(() => {
@@ -56,24 +63,44 @@ export function Banner() {
       <Container>
         <Row className="aling-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my Portfolio</span>
-            <h1>
-              {`Hi my name is Vinicius`}
-              <span className="txt-rotate">
-                <span className="wrap">{text}</span>
-              </span>
-            </h1>
-            <p>
-              I`m looking for an opportunity to get into the development area,
-              despite not having professional experience, I have several
-              projects with a repository on GitHub.
-            </p>
-            <button onClick={() => console.log('connect')}>
-              Let`s connect <BsFillArrowRightCircleFill size={25} />
-            </button>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? 'animate__animated animate__fadeIn' : ''
+                  }
+                >
+                  <span className="tagline">Welcome to my Portfolio</span>
+                  <h1>
+                    {`Hi my name is Vinicius`}
+                    <span className="txt-rotate">
+                      <span className="wrap">{text}</span>
+                    </span>
+                  </h1>
+                  <p>
+                    I`m looking for an opportunity to get into the development
+                    area, despite not having professional experience, I have
+                    several projects with a repository on GitHub.
+                  </p>
+                  <button onClick={() => console.log('connect')}>
+                    Let`s connect <BsFillArrowRightCircleFill size={25} />
+                  </button>
+                </div>
+              )}
+            </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Header img" />
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? 'animate__animated animate__zoomIn' : ''
+                  }
+                >
+                  <img src={headerImg} alt="Header Img" />
+                </div>
+              )}
+            </TrackVisibility>
           </Col>
         </Row>
       </Container>
