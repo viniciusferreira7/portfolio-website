@@ -10,12 +10,17 @@ import fasters from '../assets/img/fasters.gif'
 import igniteTimer from '../assets/img/igniteTimer.gif'
 import igniteTodo from '../assets/img/igniteTodo.gif'
 import igniteFeed from '../assets/img/igniteFeed.gif'
+import TPrime from '../assets/img/tprime.gif'
+import WeatherDesktop from '../assets/img/WeatherDesktop.gif'
+import FernandaVarellaDesktop from '../assets/img/FernandaVarellaDesktop.gif'
+import qrideiaDesktop from '../assets/img/qrideiaDesktop.gif'
+import TodoDesktop from '../assets/img/TodoDesktop.gif'
 import colorSharp2 from '../assets/img/color-sharp2.png'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
 
 export function Projects() {
-  const projects1 = [
+  const projectsTab1 = [
     {
       title: 'Fasters',
       description: 'Schedule',
@@ -44,8 +49,6 @@ export function Projects() {
       github: 'https://github.com/viniciusferreira7/ignite-feed-ts',
       website: 'https://ignite-feed-ts-inky.vercel.app/',
     },
-  ]
-  const projects2 = [
     {
       title: 'Ecommerce Product Page Main',
       description: 'A simple e-commerce page',
@@ -54,6 +57,8 @@ export function Projects() {
         'https://github.com/viniciusferreira7/ecommerce-product-page-main',
       website: 'https://ecommerce-product-page-main-psi.vercel.app/',
     },
+  ]
+  const projectsTab2 = [
     {
       title: 'BuildBox',
       description:
@@ -90,6 +95,43 @@ export function Projects() {
       imgUrl: vizpertDesktop,
       github: 'https://github.com/viniciusferreira7/TECH-LIBRARY-Vizpert',
       website: 'https://boring-mccarthy-70ced4.netlify.app/',
+    },
+  ]
+
+  const projectsTab3 = [
+    {
+      title: 'TPrime',
+      description: 'A site where the user can add postsCard',
+      imgUrl: TPrime,
+      github: 'https://github.com/viniciusferreira7/Tprime',
+      website: 'https://naughty-hamilton-6153ab.netlify.app/',
+    },
+    {
+      title: 'WeatherDesktop',
+      description: 'Website to see the weather forecast',
+      imgUrl: WeatherDesktop,
+      github: 'https://github.com/viniciusferreira7/tempo',
+      website: 'https://tempo-one.vercel.app/',
+    },
+    {
+      title: 'Fernanda Varella',
+      description: 'Project carried out during the Front-End course.',
+      imgUrl: FernandaVarellaDesktop,
+      github: 'https://github.com/viniciusferreira7/Fernanda-Varella-Slovinski',
+      website: 'https://fernanda-varella-slovinski.vercel.app/',
+    },
+    {
+      title: 'QrIdeia',
+      description: 'A simple react page',
+      imgUrl: qrideiaDesktop,
+      github: 'https://github.com/viniciusferreira7/QRIDEIA',
+      website: 'https://stupefied-hamilton-eeccd9.netlify.app/',
+    },
+    {
+      title: 'Todo',
+      description: 'A list made using ReactJS',
+      imgUrl: TodoDesktop,
+      github: 'https://github.com/viniciusferreira7/todo-list',
     },
   ]
 
@@ -134,26 +176,24 @@ export function Projects() {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects1.map((project, index) => {
+                          {projectsTab1.map((project, index) => {
                             return <ProjectCard key={index} {...project} />
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <Row>
-                          {projects2.map((project, index) => {
+                          {projectsTab2.map((project, index) => {
                             return <ProjectCard key={index} {...project} />
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
+                        <Row>
+                          {projectsTab3.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />
+                          })}
+                        </Row>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
