@@ -110,7 +110,13 @@ export function NavBar() {
               </a>
             </div>
             <button className="vvd" onClick={() => console.log('connect')}>
-              <span>Let`s Connect</span>
+              <a
+                href="https://www.linkedin.com/in/vinicius-ferreira-84b68b162/"
+                target="_blanck"
+                title="Link para o Linkedin"
+              >
+                Let`s Connect
+              </a>
             </button>
           </span>
         </Navbar.Collapse>

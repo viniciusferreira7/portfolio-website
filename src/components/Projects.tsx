@@ -1,43 +1,95 @@
 import { Container, Row, Col, Tab, Nav } from 'react-bootstrap'
 import { ProjectCard } from './ProjectCard'
-import projImg1 from '../assets/img/project-img1.png'
-import projImg2 from '../assets/img/project-img2.png'
-import projImg3 from '../assets/img/project-img3.png'
+import accountsDesktop from '../assets/img/accountsDesktop.gif'
+import testeOneBlueDesktop from '../assets/img/teste-one-blue-desktop.gif'
+import testeGbmDesktop from '../assets/img/testegbmDesktop.gif'
+import vizpertDesktop from '../assets/img/vizpertDesktop.gif'
+import ecommerceDesktop from '../assets/img/ecommerceDesktop.gif'
+import buildboxDesktop from '../assets/img/buildboxDesktop.gif'
+import fasters from '../assets/img/fasters.gif'
+import igniteTimer from '../assets/img/igniteTimer.gif'
+import igniteTodo from '../assets/img/igniteTodo.gif'
+import igniteFeed from '../assets/img/igniteFeed.gif'
 import colorSharp2 from '../assets/img/color-sharp2.png'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
 
 export function Projects() {
-  const projects = [
+  const projects1 = [
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg1,
+      title: 'Fasters',
+      description: 'Schedule',
+      imgUrl: fasters,
+      github: 'https://github.com/viniciusferreira7/fasters',
+      website: 'https://fasters-pi.vercel.app/',
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg2,
+      title: 'Ignite Timer',
+      description: 'Pomodoro App',
+      imgUrl: igniteTimer,
+      github: 'https://github.com/viniciusferreira7/ignite-timer',
+      website: 'https://ignite-timer-zeta.vercel.app/',
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg3,
+      title: 'Ignite Todo',
+      description: 'to-do list',
+      imgUrl: igniteTodo,
+      github: 'https://github.com/viniciusferreira7/ignite-todo-list',
+      website: 'https://ignite-todo-list-kappa.vercel.app/',
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg1,
+      title: 'Ignite Feed',
+      description: 'a feed of comments',
+      imgUrl: igniteFeed,
+      github: 'https://github.com/viniciusferreira7/ignite-feed-ts',
+      website: 'https://ignite-feed-ts-inky.vercel.app/',
+    },
+  ]
+  const projects2 = [
+    {
+      title: 'Ecommerce Product Page Main',
+      description: 'A simple e-commerce page',
+      imgUrl: ecommerceDesktop,
+      github:
+        'https://github.com/viniciusferreira7/ecommerce-product-page-main',
+      website: 'https://ecommerce-product-page-main-psi.vercel.app/',
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg2,
+      title: 'BuildBox',
+      description:
+        'A page using React.js that contains a list of posts with the possibility to add and remove. Each post has name, message and photo.',
+      imgUrl: buildboxDesktop,
+      github: 'https://github.com/viniciusferreira7/Buildbox',
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg3,
+      title: 'Teste Gbm',
+      description:
+        'An application that informs the unloaded wagons of the three railroads in the port of Santos, as well as their plates, unloading times and the volume unloaded.',
+      imgUrl: testeGbmDesktop,
+      github: 'https://github.com/viniciusferreira7/teste-gbm',
+      website: 'https://curious-panda-765898.netlify.app/',
+    },
+    {
+      title: 'Accounts',
+      description: 'Simulates a bank account through the terminal.',
+      imgUrl: accountsDesktop,
+      github: 'https://www.linkedin.com/in/vinicius-ferreira-84b68b162/',
+    },
+    {
+      title: 'Teste One Blue Desktop',
+      description:
+        'This application integrates with the backend application present in this repository (https://github.com/oneblueapp/testing_react_js) the purpose of this application is a visual interaction with the user registration and login API. With error dealings.',
+      imgUrl: testeOneBlueDesktop,
+      github: 'https://github.com/viniciusferreira7/teste-one-blue',
+      website: 'https://lustrous-tiramisu-619ac1.netlify.app/',
+    },
+    {
+      title: 'TECH-LIBRARY-Vizpert',
+      description:
+        'The app basically consists of a bookshelf where the user can organize books and order them based on some characteristic of them.',
+      imgUrl: vizpertDesktop,
+      github: 'https://github.com/viniciusferreira7/TECH-LIBRARY-Vizpert',
+      website: 'https://boring-mccarthy-70ced4.netlify.app/',
     },
   ]
 
@@ -55,11 +107,8 @@ export function Projects() {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industrys
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Here you can find the projects that I consider most
+                    important on my GitHub
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -85,19 +134,17 @@ export function Projects() {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects.map((project, index) => {
+                          {projects1.map((project, index) => {
                             return <ProjectCard key={index} {...project} />
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
+                        <Row>
+                          {projects2.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />
+                          })}
+                        </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>

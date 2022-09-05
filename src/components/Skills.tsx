@@ -45,7 +45,7 @@ export function Skills() {
                       maxValue={1}
                       text={`${0.95 * 100}%`}
                       styles={buildStyles({
-                        pathColor: `#4E2970`,
+                        pathColor: `#642859`,
                         textColor: '#fff',
                       })}
                     />
@@ -59,7 +59,7 @@ export function Skills() {
                       maxValue={1}
                       text={`${0.9 * 100}%`}
                       styles={buildStyles({
-                        pathColor: `#4E2970`,
+                        pathColor: `#642859`,
                         textColor: '#fff',
                       })}
                     />
@@ -73,7 +73,7 @@ export function Skills() {
                       maxValue={1}
                       text={`${0.85 * 100}%`}
                       styles={buildStyles({
-                        pathColor: `#4E2970`,
+                        pathColor: `#642859`,
                         textColor: '#fff',
                       })}
                     />
@@ -87,7 +87,7 @@ export function Skills() {
                       maxValue={1}
                       text={`${0.83 * 100}%`}
                       styles={buildStyles({
-                        pathColor: `#4E2970`,
+                        pathColor: `#642859`,
                         textColor: '#fff',
                       })}
                     />
@@ -101,7 +101,7 @@ export function Skills() {
                       maxValue={1}
                       text={`${0.65 * 100}%`}
                       styles={buildStyles({
-                        pathColor: `#4E2970`,
+                        pathColor: `#642859`,
                         textColor: '#fff',
                       })}
                     />
@@ -115,7 +115,7 @@ export function Skills() {
                       maxValue={1}
                       text={`${0.45 * 100}%`}
                       styles={buildStyles({
-                        pathColor: `#4E2970`,
+                        pathColor: `#642859`,
                         textColor: '#fff',
                       })}
                     />
@@ -129,7 +129,7 @@ export function Skills() {
                       maxValue={1}
                       text={`${0.8 * 100}%`}
                       styles={buildStyles({
-                        pathColor: `#4E2970`,
+                        pathColor: `#642859`,
                         textColor: '#fff',
                       })}
                     />
@@ -143,7 +143,7 @@ export function Skills() {
                       maxValue={1}
                       text={`${0.4 * 100}%`}
                       styles={buildStyles({
-                        pathColor: `#4E2970`,
+                        pathColor: `#642859`,
                         textColor: '#fff',
                       })}
                     />
@@ -157,7 +157,7 @@ export function Skills() {
                       maxValue={1}
                       text={`${0.6 * 100}%`}
                       styles={buildStyles({
-                        pathColor: `#4E2970`,
+                        pathColor: `#642859`,
                         textColor: '#fff',
                       })}
                     />
@@ -171,12 +171,12 @@ export function Skills() {
                       maxValue={1}
                       text={`${0.5 * 100}%`}
                       styles={buildStyles({
-                        pathColor: `#4E2970`,
+                        pathColor: `#642859`,
                         textColor: '#fff',
                       })}
                     />
                   </div>
-                  <h5>Express</h5>
+                  <h5>Express.js</h5>
                 </div>
                 <div className="item">
                   <div style={{ width: 200, height: 200 }}>
@@ -185,7 +185,7 @@ export function Skills() {
                       maxValue={1}
                       text={`${0.2 * 100}%`}
                       styles={buildStyles({
-                        pathColor: `#4E2970`,
+                        pathColor: `#642859`,
                         textColor: '#fff',
                       })}
                     />

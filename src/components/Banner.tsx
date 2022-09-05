@@ -83,7 +83,13 @@ export function Banner() {
                     several projects with a repository on GitHub.
                   </p>
                   <button onClick={() => console.log('connect')}>
-                    Let`s connect <BsFillArrowRightCircleFill size={25} />
+                    <a
+                      href="https://www.linkedin.com/in/vinicius-ferreira-84b68b162/"
+                      target="_blanck"
+                      title="Link para o Linkedin"
+                    >
+                      Let`s connect <BsFillArrowRightCircleFill size={25} />
+                    </a>
                   </button>
                 </div>
               )}
