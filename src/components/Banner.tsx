@@ -6,7 +6,7 @@ import { BsFillArrowRightCircleFill } from 'react-icons/bs'
 
 import headerImg from '../assets/img/header-img.svg'
 
-export default function Banner() {
+export function Banner() {
   const [loopNum, setLoopNum] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
   const [text, setText] = useState('')
