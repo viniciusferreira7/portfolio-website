@@ -47,8 +47,11 @@ export function Newsletter({ status, message, onValidated }: NewsLetterProps) {
                   type="email"
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Email Address"
+                  disabled
                 />
-                <button type="submit">Submit</button>
+                <button disabled type="submit">
+                  Submit
+                </button>
               </div>
             </form>
           </Col>

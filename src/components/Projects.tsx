@@ -10,11 +10,15 @@ import fasters from '../assets/img/fasters.gif'
 import igniteTimer from '../assets/img/igniteTimer.gif'
 import igniteTodo from '../assets/img/igniteTodo.gif'
 import igniteFeed from '../assets/img/igniteFeed.gif'
+import reductionRPMTest from '../assets/img/reductionRPMTest.gif'
 import TPrime from '../assets/img/tprime.gif'
 import WeatherDesktop from '../assets/img/WeatherDesktop.gif'
 import FernandaVarellaDesktop from '../assets/img/FernandaVarellaDesktop.gif'
 import qrideiaDesktop from '../assets/img/qrideiaDesktop.gif'
 import TodoDesktop from '../assets/img/TodoDesktop.gif'
+import sunnysideDesktop from '../assets/img/sunnysideDesktop.gif'
+import calculadora from '../assets/img/calculadora.gif'
+import pingpong from '../assets/img/pingpong.gif'
 import colorSharp2 from '../assets/img/color-sharp2.png'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
@@ -57,6 +61,13 @@ export function Projects() {
         'https://github.com/viniciusferreira7/ecommerce-product-page-main',
       website: 'https://ecommerce-product-page-main-psi.vercel.app/',
     },
+    {
+      title: 'Reduction RPM Test',
+      description: 'RPM reduction test for Bonfiglioli',
+      imgUrl: reductionRPMTest,
+      github: 'https://github.com/viniciusferreira7/reduction-rpm-test',
+      website: 'https://fancy-kashata-61b310.netlify.app/',
+    },
   ]
   const projectsTab2 = [
     {
@@ -96,6 +107,13 @@ export function Projects() {
       github: 'https://github.com/viniciusferreira7/TECH-LIBRARY-Vizpert',
       website: 'https://boring-mccarthy-70ced4.netlify.app/',
     },
+    {
+      title: 'WeatherDesktop',
+      description: 'Website to see the weather forecast',
+      imgUrl: WeatherDesktop,
+      github: 'https://github.com/viniciusferreira7/tempo',
+      website: 'https://tempo-one.vercel.app/',
+    },
   ]
 
   const projectsTab3 = [
@@ -105,13 +123,6 @@ export function Projects() {
       imgUrl: TPrime,
       github: 'https://github.com/viniciusferreira7/Tprime',
       website: 'https://naughty-hamilton-6153ab.netlify.app/',
-    },
-    {
-      title: 'WeatherDesktop',
-      description: 'Website to see the weather forecast',
-      imgUrl: WeatherDesktop,
-      github: 'https://github.com/viniciusferreira7/tempo',
-      website: 'https://tempo-one.vercel.app/',
     },
     {
       title: 'Fernanda Varella',
@@ -132,6 +143,25 @@ export function Projects() {
       description: 'A list made using ReactJS',
       imgUrl: TodoDesktop,
       github: 'https://github.com/viniciusferreira7/todo-list',
+    },
+    {
+      title: 'Sunnyside',
+      description: 'Landing page',
+      imgUrl: sunnysideDesktop,
+      github: 'https://github.com/viniciusferreira7/Sunnyside',
+    },
+    {
+      title: 'Calculadora',
+      description: 'Calculator',
+      imgUrl: calculadora,
+      github: 'https://github.com/viniciusferreira7/Calculadora',
+      website: 'https://calculadora-rust.vercel.app/',
+    },
+    {
+      title: 'Ping Pong',
+      description: 'Ping pong animation made with CSS3.',
+      imgUrl: pingpong,
+      github: 'https://github.com/viniciusferreira7/Ping-pong',
     },
   ]
 

@@ -25,11 +25,11 @@ export function ProjectCard({
           <span>{description}</span>
           <div className="proj-icons">
             <a href={github} target="_blank" rel="noopener noreferrer">
-              <AiFillGithub size={40} />
+              <AiFillGithub title="GitHub" size={40} />
             </a>
             {website ? (
               <a href={website} target="_blank" rel="noopener noreferrer">
-                <CgWebsite size={40} />
+                <CgWebsite title="Website" size={40} />
               </a>
             ) : null}
           </div>

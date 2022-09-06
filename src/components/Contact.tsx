@@ -34,13 +34,14 @@ export function Contact() {
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
     setButtonText('Sending...')
-    const response = await fetch(`${window.location.href}/contact`, {
+    const response = await fetch(`http://${window.location.host}/contact`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json;charset=utf-8',
       },
       body: JSON.stringify(formDetails),
     })
+
     setButtonText('Send')
     const result = await response.json()
     setFormDetails(formInitialDetails)

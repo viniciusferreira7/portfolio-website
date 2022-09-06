@@ -24,28 +24,28 @@ export function Footer() {
               target="_blanck"
               title="Link para o Github"
             >
-              <AiFillGithub />
+              <AiFillGithub title="GitHub" />
             </a>
             <a
               href="https://www.linkedin.com/in/vinicius-ferreira-84b68b162/"
               target="_blanck"
               title="Link para o Linkedin"
             >
-              <AiFillLinkedin />
+              <AiFillLinkedin title="Linkedin" />
             </a>
             <a
               href="https://www.instagram.com/viniciusaf0/"
               target="_blanck"
               title="Link para o Instagram"
             >
-              <AiFillInstagram />
+              <AiFillInstagram title="instagram" />
             </a>
             <a
               href="https://web.facebook.com/profile.php?id=100006780847667&_rdc=1&_rdr"
               target="_blanck"
               title="Link para o Facebook"
             >
-              <AiFillFacebook />
+              <AiFillFacebook title="Facebook" />
             </a>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
