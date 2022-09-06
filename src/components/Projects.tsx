@@ -97,7 +97,6 @@ export function Projects() {
         'This application integrates with the backend application present in this repository (https://github.com/oneblueapp/testing_react_js) the purpose of this application is a visual interaction with the user registration and login API. With error dealings.',
       imgUrl: testeOneBlueDesktop,
       github: 'https://github.com/viniciusferreira7/teste-one-blue',
-      website: 'https://lustrous-tiramisu-619ac1.netlify.app/',
     },
     {
       title: 'TECH-LIBRARY-Vizpert',
