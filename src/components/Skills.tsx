@@ -153,9 +153,9 @@ export function Skills() {
                 <div className="item">
                   <div style={{ width: 200, height: 200 }}>
                     <CircularProgressbar
-                      value={0.6}
+                      value={0.25}
                       maxValue={1}
-                      text={`${0.6 * 100}%`}
+                      text={`${0.25 * 100}%`}
                       styles={buildStyles({
                         pathColor: `#642859`,
                         textColor: '#fff',
@@ -167,9 +167,9 @@ export function Skills() {
                 <div className="item">
                   <div style={{ width: 200, height: 200 }}>
                     <CircularProgressbar
-                      value={0.5}
+                      value={0.3}
                       maxValue={1}
-                      text={`${0.5 * 100}%`}
+                      text={`${0.3 * 100}%`}
                       styles={buildStyles({
                         pathColor: `#642859`,
                         textColor: '#fff',
