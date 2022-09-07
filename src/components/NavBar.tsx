@@ -9,7 +9,7 @@ import {
   AiFillFacebook,
 } from 'react-icons/ai'
 
-import logo from '../assets/img/logoVA.png'
+import logo from '../assets/img/logoVAFbold.png'
 
 export function NavBar() {
   const [activeLink, setActiveLink] = useState('home')

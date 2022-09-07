@@ -192,6 +192,90 @@ export function Skills() {
                   </div>
                   <h5>MySQL</h5>
                 </div>
+                <div className="item">
+                  <div style={{ width: 200, height: 200 }}>
+                    <CircularProgressbar
+                      value={0.3}
+                      maxValue={1}
+                      text={`${0.3 * 100}%`}
+                      styles={buildStyles({
+                        pathColor: `#642859`,
+                        textColor: '#fff',
+                      })}
+                    />
+                  </div>
+                  <h5>Jest</h5>
+                </div>
+                <div className="item">
+                  <div style={{ width: 200, height: 200 }}>
+                    <CircularProgressbar
+                      value={0.75}
+                      maxValue={1}
+                      text={`${0.75 * 100}%`}
+                      styles={buildStyles({
+                        pathColor: `#642859`,
+                        textColor: '#fff',
+                      })}
+                    />
+                  </div>
+                  <h5>JQuery</h5>
+                </div>
+                <div className="item">
+                  <div style={{ width: 200, height: 200 }}>
+                    <CircularProgressbar
+                      value={0.6}
+                      maxValue={1}
+                      text={`${0.6 * 100}%`}
+                      styles={buildStyles({
+                        pathColor: `#642859`,
+                        textColor: '#fff',
+                      })}
+                    />
+                  </div>
+                  <h5>Bootstrap</h5>
+                </div>
+                <div className="item">
+                  <div style={{ width: 200, height: 200 }}>
+                    <CircularProgressbar
+                      value={0.43}
+                      maxValue={1}
+                      text={`${0.43 * 100}%`}
+                      styles={buildStyles({
+                        pathColor: `#642859`,
+                        textColor: '#fff',
+                      })}
+                    />
+                  </div>
+                  <h5>Material-UI</h5>
+                </div>
+                <div className="item">
+                  <div style={{ width: 200, height: 200 }}>
+                    <CircularProgressbar
+                      value={0.32}
+                      maxValue={1}
+                      text={`${0.32 * 100}%`}
+                      styles={buildStyles({
+                        pathColor: `#642859`,
+                        textColor: '#fff',
+                      })}
+                    />
+                  </div>
+                  <h5>Chakra UI</h5>
+                </div>
+                <div className="item">
+                  <div style={{ width: 200, height: 200 }}>
+                    <CircularProgressbar
+                      value={0.2}
+                      maxValue={1}
+                      text={`${0.2 * 100}%`}
+                      styles={buildStyles({
+                        pathColor: `#642859`,
+                        textColor: '#fff',
+                      })}
+                    />
+                  </div>
+                  <h5>Tailwind CSS</h5>
+                </div>
               </Carousel>
             </div>
           </div>

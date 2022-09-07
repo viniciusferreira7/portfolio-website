@@ -20,8 +20,8 @@ export function Banner() {
 
   useEffect(() => {
     const toRotate = [
-      ', I am a Front End Developer',
-      ', my is stacks are React.js, Next.js, TypeScript, Node.js, MySQL',
+      ' working to be a Full Stack Developer soon...',
+      ' with solid knowledge in React.js, Next.js, TypeScript, Node.js, MySQL stacks',
       ', coming soon to Full Stack Developer',
     ]
 
@@ -72,15 +72,15 @@ export function Banner() {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi my name is Vinicius`}
+                    {`Hi, I’m Vinicius: a Front End  Developer`}
                     <span className="txt-rotate">
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    I`m looking for an opportunity to get into the development
-                    area, despite not having professional experience, I have
-                    several projects with a repository on GitHub.
+                    I’m looking for an opportunity in the development area. I
+                    already published several projects into GitHub. Please check
+                    them!
                   </p>
                   <button onClick={() => console.log('connect')}>
                     <a

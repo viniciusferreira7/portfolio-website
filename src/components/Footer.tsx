@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { MailchimpForm } from './MailchimpForm'
-import logo from '../assets/img/logoVA.png'
+import logo from '../assets/img/logoVAFbold.png'
 
 import {
   AiFillGithub,
