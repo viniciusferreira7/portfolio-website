@@ -109,7 +109,7 @@ export function NavBar() {
                 <AiFillFacebook title="Facebook" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}>
+            <button className="vvd">
               <a
                 href="https://www.linkedin.com/in/vinicius-ferreira-84b68b162/"
                 target="_blanck"

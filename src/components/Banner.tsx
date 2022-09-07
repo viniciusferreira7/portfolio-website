@@ -82,13 +82,13 @@ export function Banner() {
                     already published several projects into GitHub. Please check
                     them!
                   </p>
-                  <button onClick={() => console.log('connect')}>
+                  <button>
                     <a
-                      href="https://www.linkedin.com/in/vinicius-ferreira-84b68b162/"
+                      href="https://github.com/viniciusferreira7"
                       target="_blanck"
-                      title="Link para o Linkedin"
+                      title="Link para o GitHub"
                     >
-                      Let`s connect <BsFillArrowRightCircleFill size={25} />
+                      GitHub <BsFillArrowRightCircleFill size={25} />
                     </a>
                   </button>
                 </div>
