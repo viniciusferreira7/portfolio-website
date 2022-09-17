@@ -6,7 +6,7 @@ import 'animate.css'
 import TrackVisibility from 'react-on-screen'
 
 export function Contact() {
-  const form = useRef<string | HTMLFormElement>('')
+  const form = useRef<HTMLFormElement | null>(null)
   const [buttonText, setButtonText] = useState('Send')
 
   const handleSendEmail = (event: FormEvent<HTMLFormElement>) => {
@@ -17,7 +17,7 @@ export function Contact() {
       .sendForm(
         'service_xt683hc',
         'template_briyphi',
-        form.current,
+        form.current !== null ? form.current : '',
         'bq5CYNhITBbBCDiHI',
       )
       .then(
