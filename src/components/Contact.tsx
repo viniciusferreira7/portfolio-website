@@ -32,7 +32,7 @@ export function Contact() {
   }
 
   return (
-    <section className="contact" id="connect">
+    <section className="contact">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
