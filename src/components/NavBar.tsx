@@ -40,7 +40,7 @@ export function NavBar() {
   }
 
   return (
-    <Navbar bg="dark" expand="lg" className={scrolled ? 'scrolled' : ''}>
+    <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} alt="Logo" />
