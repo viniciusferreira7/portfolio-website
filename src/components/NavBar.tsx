@@ -18,9 +18,9 @@ export function NavBar() {
   useEffect(() => {
     function onScroll() {
       if (window.screenY > 50) {
-        setScrolled(true)
-      } else {
         setScrolled(false)
+      } else {
+        setScrolled(true)
       }
     }
 
@@ -29,7 +29,7 @@ export function NavBar() {
     return () => {
       window.removeEventListener('scroll', onScroll)
     }
-  }, [])
+  })
 
   function handleUpdateActiveLink(
     linkName: string,
@@ -40,7 +40,7 @@ export function NavBar() {
   }
 
   return (
-    <Navbar bg="dark" expand="lg" className={scrolled ? 'scrolled' : ''}>
+    <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} alt="Logo" />

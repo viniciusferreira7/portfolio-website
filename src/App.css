@@ -90,8 +90,10 @@ nav.navbar {
   z-index: 9999;
   transition:  0.32s ease-in-out;
 }
-nav.navbar.scrolled {
+
+ .scrolled {
   padding: 0px 0;
+  color: red;
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
