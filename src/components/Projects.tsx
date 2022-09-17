@@ -38,6 +38,7 @@ export function Projects() {
       imgUrl: igniteTimer,
       github: 'https://github.com/viniciusferreira7/ignite-timer',
       website: 'https://ignite-timer-zeta.vercel.app/',
+      warning: true,
     },
     {
       title: 'Ignite Todo',
