@@ -19,6 +19,10 @@ import TodoDesktop from '../assets/img/TodoDesktop.gif'
 import sunnysideDesktop from '../assets/img/sunnysideDesktop.gif'
 import calculadora from '../assets/img/calculadora.gif'
 import pingpong from '../assets/img/pingpong.gif'
+import allyHub from '../assets/img/allyhub.gif'
+import govOne from '../assets/img/govone.gif'
+import dtMonkey from '../assets/img/dtmoney.gif'
+import coffeeDelivery from '../assets/img/coffeedelivery.png'
 import colorSharp2 from '../assets/img/color-sharp2.png'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
@@ -38,7 +42,6 @@ export function Projects() {
       imgUrl: igniteTimer,
       github: 'https://github.com/viniciusferreira7/ignite-timer',
       website: 'https://ignite-timer-zeta.vercel.app/',
-      warning: true,
     },
     {
       title: 'Ignite Todo',
@@ -48,26 +51,30 @@ export function Projects() {
       website: 'https://ignite-todo-list-kappa.vercel.app/',
     },
     {
-      title: 'Ignite Feed',
-      description: 'a feed of comments',
-      imgUrl: igniteFeed,
-      github: 'https://github.com/viniciusferreira7/ignite-feed-ts',
-      website: 'https://ignite-feed-ts-inky.vercel.app/',
+      title: 'GovOne Notícias',
+      description: 'News portal',
+      imgUrl: govOne,
+      github: 'https://github.com/viniciusferreira7/govone-challenge',
+      website: 'https://govone-challenge.vercel.app/',
     },
     {
-      title: 'Ecommerce Product Page Main',
-      description: 'A simple e-commerce page',
-      imgUrl: ecommerceDesktop,
-      github:
-        'https://github.com/viniciusferreira7/ecommerce-product-page-main',
-      website: 'https://ecommerce-product-page-main-psi.vercel.app/',
+      title: 'Ally Hub',
+      description: 'Ally Hub challenge to mark destinations of interest.',
+      imgUrl: allyHub,
+      github: 'https://github.com/viniciusferreira7/ally-hub-challenge-2',
+      website: 'http://ally-hub-challenge-2.vercel.app/',
     },
     {
-      title: 'Reduction RPM Test',
-      description: 'RPM reduction test for Bonfiglioli',
-      imgUrl: reductionRPMTest,
-      github: 'https://github.com/viniciusferreira7/reduction-rpm-test',
-      website: 'https://fancy-kashata-61b310.netlify.app/',
+      title: 'DT Monkey',
+      description: 'Personal financial control.',
+      imgUrl: dtMonkey,
+      github: 'https://github.com/viniciusferreira7/dt-monkey',
+    },
+    {
+      title: 'Coffee Delivery',
+      description: 'Coffee sales page.',
+      imgUrl: coffeeDelivery,
+      github: 'https://github.com/viniciusferreira7/coffee-delivery',
     },
   ]
   const projectsTab2 = [
@@ -79,25 +86,19 @@ export function Projects() {
       github: 'https://github.com/viniciusferreira7/Buildbox',
     },
     {
+      title: 'Ignite Feed',
+      description: 'a feed of comments',
+      imgUrl: igniteFeed,
+      github: 'https://github.com/viniciusferreira7/ignite-feed-ts',
+      website: 'https://ignite-feed-ts-inky.vercel.app/',
+    },
+    {
       title: 'Teste Gbm',
       description:
         'An application that informs the unloaded wagons of the three railroads in the port of Santos, as well as their plates, unloading times and the volume unloaded.',
       imgUrl: testeGbmDesktop,
       github: 'https://github.com/viniciusferreira7/teste-gbm',
       website: 'https://curious-panda-765898.netlify.app/',
-    },
-    {
-      title: 'Accounts',
-      description: 'Simulates a bank account through the terminal.',
-      imgUrl: accountsDesktop,
-      github: 'https://www.linkedin.com/in/vinicius-ferreira-84b68b162/',
-    },
-    {
-      title: 'Teste One Blue Desktop',
-      description:
-        'This application integrates with the backend application present in this repository (https://github.com/oneblueapp/testing_react_js) the purpose of this application is a visual interaction with the user registration and login API. With error dealings.',
-      imgUrl: testeOneBlueDesktop,
-      github: 'https://github.com/viniciusferreira7/teste-one-blue',
     },
     {
       title: 'TECH-LIBRARY-Vizpert',
@@ -114,15 +115,43 @@ export function Projects() {
       github: 'https://github.com/viniciusferreira7/tempo',
       website: 'https://tempo-one.vercel.app/',
     },
+    {
+      title: 'Ecommerce Product Page Main',
+      description: 'A simple e-commerce page',
+      imgUrl: ecommerceDesktop,
+      github:
+        'https://github.com/viniciusferreira7/ecommerce-product-page-main',
+      website: 'https://ecommerce-product-page-main-psi.vercel.app/',
+    },
   ]
 
   const projectsTab3 = [
+    {
+      title: 'Reduction RPM Test',
+      description: 'RPM reduction test for Bonfiglioli',
+      imgUrl: reductionRPMTest,
+      github: 'https://github.com/viniciusferreira7/reduction-rpm-test',
+      website: 'https://fancy-kashata-61b310.netlify.app/',
+    },
     {
       title: 'TPrime',
       description: 'A site where the user can add postsCard',
       imgUrl: TPrime,
       github: 'https://github.com/viniciusferreira7/Tprime',
       website: 'https://naughty-hamilton-6153ab.netlify.app/',
+    },
+    {
+      title: 'Accounts',
+      description: 'Simulates a bank account through the terminal.',
+      imgUrl: accountsDesktop,
+      github: 'https://www.linkedin.com/in/vinicius-ferreira-84b68b162/',
+    },
+    {
+      title: 'Teste One Blue Desktop',
+      description:
+        'This application integrates with the backend application present in this repository (https://github.com/oneblueapp/testing_react_js) the purpose of this application is a visual interaction with the user registration and login API. With error dealings.',
+      imgUrl: testeOneBlueDesktop,
+      github: 'https://github.com/viniciusferreira7/teste-one-blue',
     },
     {
       title: 'Fernanda Varella',
