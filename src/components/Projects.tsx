@@ -75,6 +75,7 @@ export function Projects() {
       description: 'Coffee sales page.',
       imgUrl: coffeeDelivery,
       github: 'https://github.com/viniciusferreira7/coffee-delivery',
+      warning: true,
     },
   ]
   const projectsTab2 = [
