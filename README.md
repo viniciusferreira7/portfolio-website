@@ -32,6 +32,8 @@
 
 #### `React-router-hash-link`
 
+#### `Commitizen`
+
 #### `cz-conventional-changelog`
 
 #### `@rocketseat/eslint-config`
