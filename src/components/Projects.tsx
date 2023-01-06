@@ -22,7 +22,7 @@ import pingpong from '../assets/img/pingpong.gif'
 import allyHub from '../assets/img/allyhub.gif'
 import govOne from '../assets/img/govone.gif'
 import dtMonkey from '../assets/img/dtmoney.gif'
-import coffeeDelivery from '../assets/img/coffeedelivery.png'
+import coffeeDelivery from '../assets/img/coffeedelivery.gif'
 import colorSharp2 from '../assets/img/color-sharp2.png'
 import 'animate.css'
 import TrackVisibility from 'react-on-screen'
@@ -75,7 +75,7 @@ export function Projects() {
       description: 'Coffee sales page.',
       imgUrl: coffeeDelivery,
       github: 'https://github.com/viniciusferreira7/coffee-delivery',
-      warning: true,
+      website: 'https://coffee-delivery-ivory-alpha.vercel.app/',
     },
   ]
   const projectsTab2 = [
