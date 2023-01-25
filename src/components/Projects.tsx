@@ -21,6 +21,7 @@ import calculadora from '../assets/img/calculadora.gif'
 import pingpong from '../assets/img/pingpong.gif'
 import allyHub from '../assets/img/allyhub.gif'
 import govOne from '../assets/img/govone.gif'
+import githubblog from '../assets/img/githubblog.gif'
 import dtMonkey from '../assets/img/dtmoney.gif'
 import coffeeDelivery from '../assets/img/coffeedelivery.gif'
 import colorSharp2 from '../assets/img/color-sharp2.png'
@@ -51,11 +52,11 @@ export function Projects() {
       website: 'https://ignite-todo-list-kappa.vercel.app/',
     },
     {
-      title: 'GovOne Notícias',
-      description: 'News portal',
-      imgUrl: govOne,
-      github: 'https://github.com/viniciusferreira7/govone-challenge',
-      website: 'https://govone-challenge.vercel.app/',
+      title: 'GitHub Blog',
+      description: 'Blog with github issues',
+      imgUrl: githubblog,
+      github: 'https://github.com/viniciusferreira7/github-blog',
+      website: 'https://github-blog-tan-rho.vercel.app/',
     },
     {
       title: 'Ally Hub',
@@ -100,6 +101,13 @@ export function Projects() {
       imgUrl: testeGbmDesktop,
       github: 'https://github.com/viniciusferreira7/teste-gbm',
       website: 'https://curious-panda-765898.netlify.app/',
+    },
+    {
+      title: 'GovOne Notícias',
+      description: 'News portal',
+      imgUrl: govOne,
+      github: 'https://github.com/viniciusferreira7/govone-challenge',
+      website: 'https://govone-challenge.vercel.app/',
     },
     {
       title: 'TECH-LIBRARY-Vizpert',
